@@ -69,9 +69,9 @@ var htmlTemplate = `<html>
     <head>
         <title>
             ${title}
-            <link href="/ui/style.css" rel="stylesheet" />
         </title>
-        
+    </head>
+        <link href="/ui/style.css" rel="stylesheet" />
         <body>
             <div>
             <a href = "/">Home</a>
@@ -83,8 +83,7 @@ var htmlTemplate = `<html>
             ${content} 
             </div>
         </body>
-    </head>
-</html>`;
+    </html>`;
 return htmlTemplate;
 }
 
