@@ -70,8 +70,8 @@ var htmlTemplate = `<html>
         <title>
             ${title}
         </title>
-    </head>
         <link href="/ui/style.css" rel="stylesheet" />
+    </head>
         <body>
             <div>
             <a href = "/">Home</a>
